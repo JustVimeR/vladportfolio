@@ -17,6 +17,12 @@ const config: Config = {
         'custom-56': '56px', 
         'custon-40': '40px'
       },
+      fontFamily: {
+        'fake-receipt': ['Fake Receipt', 'sans-serif'],
+        'anton' : ["Anton", 'sans-serif'],
+        'bebas-neue': ['Bebas Neue', 'sans-serif'],
+        'playfair': ['Playfair Display', 'serif'],
+      },
     },
   },
   plugins: [],

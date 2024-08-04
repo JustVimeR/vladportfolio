@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
 import Navigation from './Navigation';
+import Footer from './Footer';
 
 type Props = {
   children: ReactNode;
@@ -20,7 +21,7 @@ const Layout = ({ children, title = 'Default Title' }: Props) => {
       </header>
       <main className='px-40 py-24'>{children}</main>
       <footer>
-        {/* My підвал */}
+        <Footer/>
       </footer>
     </div>
   );

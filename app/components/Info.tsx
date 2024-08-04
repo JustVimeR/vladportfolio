@@ -6,39 +6,38 @@ import Image from 'next/image';
 const Info = () => {
   return (
     <div className='flex flex-row'>
-        <div className='flex flex-col gap-12'>
-            <div className='bg-black rounded-custom-56 flex flex-row items-center justify-center px-10 py-12 h-44'>
+        <div className='flex flex-col gap-12 items-end'>
+            <div className='max-w-[700px] bg-black rounded-custom-56 flex flex-row items-center justify-center px-10 py-12 h-44'>
                 <div className='h-24 w-24 bg-green-200 rounded-3xl origin-bottom -rotate-12 mr-7 flex items-center justify-center'>
                     <Vector />
                 </div>
-                <div className='text-7xl font-normal text-white'>Vladyslav Taran</div>
+                <div className='text-7xl font-normal text-white font-anton'>Vladyslav Taran</div>
             </div>
             <div className='rounded-custom-56 bg-gray-200 px-12 py-10 flex flex-row ' >
                 <div className='flex flex-col'>
-                <p>Hello!</p>
-                <p className='mt-5'>I’M A Digital Product designer focused on the web/mobile, 
-interaction, modern aesthetics, branding, and design systems. 
-I take pleasure in creating products that are simple, smart, 
-and user-friendly.</p>
-                <p className='mt-5'>Over the years of designing, I have honed my skills as a 
-well-rounded designer, confidently navigating every aspect of 
-the digital product creation process, from start to finish.</p>
+                <p className='font-fake-receipt'>Hello!</p>
+                <p className='mt-5 font-fake-receipt'>I’m a Frontend Developer specializing in creating engaging and responsive web applications. My expertise lies in building user-friendly interfaces with a focus on modern technologies, clean code, and seamless user experiences. I take pride in crafting applications that are both functional and visually appealing.</p>
+                <p className='mt-5 font-fake-receipt'>Over the years of development, I have refined my skills in frontend technologies, confidently navigating every aspect of the development process, from concept to deployment. My goal is to turn complex problems into elegant solutions while delivering high-quality, performant web experiences.</p>
                 </div>
                 
             <Image src={MyInfo} alt='myinfo' className='w-52 h-44' />
             </div>
             <div className='framer px-10'>
                 <div className='rounded-custom-56 bg-pink-200 px-12 py-10 flex flex-col gap-12' >
-                    <p className='text-5xl font-normal'>Work</p>
+                    <p className='text-5xl font-normal font-playfair'>Work</p>
                     <div className='flex flex-col'>
-                        <p className='text-2xl font-normal'>2022-2023</p>
-                        <p>Senior Product Designer</p>
+                        <p className='text-2xl font-normal font-bebas-neue'>Nov 2023 - Present</p>
+                        <p className='font-fake-receipt'>React Frontend Developer at Startup. CarsReview is a B2B platform revolutionizing used car buying with honest, in-depth reviews. We provide businesses with accurate insights into performance, history, and value, ensuring informed, confident decisions.</p>
+                    </div>
+
+                    <div className='flex flex-col'>
+                        <p className='text-2xl font-normal font-bebas-neue'>Sep 2023 - Oct 2023</p>
+                        <p className='font-fake-receipt'>Angular Developer in Sidis Group. Developed the frontend of the CRM system for accounting of kindergartens, schools and camps.</p>
                     </div>
                     
                     <div className='flex flex-col'>
-                        <p className='text-2xl font-normal'>2019-2022</p>
-                        <p>In late 2019, I founded Heeko, a creative design and technology company. Our 
-    team has been fortunate to work with global brands such as </p>
+                        <p className='text-2xl font-normal font-bebas-neue'>Apr 2023 - Sep 2023</p>
+                        <p className='font-fake-receipt'>Web developer in FIDEZ. Developed various types of sites</p> 
                     </div>
                 </div>
             </div>
@@ -46,28 +45,23 @@ the digital product creation process, from start to finish.</p>
         <div className='flex flex-col gap-14 items-center place-content-center'>
             <div className='framer px-6'>
                 <div className='rounded-custom-56 bg-sky-200 px-12 py-10 flex flex-col'>
-                    <p className='text-5xl font-normal'>Capabilities</p>
+                    <p className='text-5xl font-normal font-playfair'>Capabilities</p>
                     <div className='flex gap-2 mt-12 flex-wrap'>
-                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2'>Type Script</div>
-                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2'>Java Script</div>
-                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2'>NextJs</div>
-                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2'>React</div>
-                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2'>UX/UI</div>
-                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2'>Tailwind</div>
-                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2'>Chakra Ui</div>
-                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2'>HTML5/SCSS</div>
+                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2 font-anton'>Type Script</div>
+                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2 font-playfair'>Java Script</div>
+                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2 font-fake-receipt'>NextJs</div>
+                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2 font-bebas-neue'>React</div>
+                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2 font-anton'>UX/UI</div>
+                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2 font-playfair'>Tailwind</div>
+                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2 font-fake-receipt'>Chakra UI</div>
+                        <div className='text-2xl font-normal bg-white rounded-custon-40 px-4 py-2 font-bebas-neue'>HTML5/SCSS</div>
                     </div>
-                    <p className='mt-12'> 
-                    I also collaborate with other talented designers to 
-    provide 3D design, illustrations, and icon design 
-    services upon request.
-                    </p>
                 </div>
             </div>
             <div className='rounded-custom-56 bg-green-200 px-12 py-10 flex flex-row'>
                 <div className='flex flex-col'>
-                    <p className='text-5xl font-normal mb-6'>Where?</p>
-                    <p>Kiev, Ukraine</p>
+                    <p className='text-5xl font-normal mb-6 font-anton'>Where?</p>
+                    <p className='font-fake-receipt'>Kiev, Ukraine</p>
                 </div>
             </div>
         </div>
